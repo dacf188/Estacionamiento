@@ -16,7 +16,6 @@ public class PorHora extends TipoEstacionamiento{
             return true;
         } catch (InputMismatchException e) {
             System.out.println("TIPO DE DATO INVALIDO");
-            System.out.println(e.toString());
             scanner.nextLine();
             return false;
         }

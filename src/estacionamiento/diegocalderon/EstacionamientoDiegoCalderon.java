@@ -40,7 +40,6 @@ public class EstacionamientoDiegoCalderon {
                     }
                 } catch (InputMismatchException e) {
                     System.out.println("TIPO DE DATO INVALIDO");
-                    System.out.println(e.toString());
                     scanner.nextLine();
                 }
                 //SE VERIFICA QUE LA INSTANCIACIÓN ESTÉ CORRECTA
